@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+
+}
+
+
+.image-container {
+  position: absolute;
+  width: 100%;
+}
+.container{
+max-width: 100%;
+display: flex;
+margin-top: 20px;
+
+padding: 0px 100px;
+}
+
+.background-img {
+  height: 800px;
+  width: 100%;
+
+
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  background-image: url("../images/image 1.jpg");
+  position: relative;
+}
+
+.nav-bar {
+  width: 100%;
+  color: #f2f2f2;
+  text-align: center;
+  margin-top: 22px;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 17px;
+}
+
+.start-tiltle {
+  color: #f2f2f2;
+  text-align: center;
+  margin-top: 100px;
+}
+.book-button {
+  background-color: #285a43;
+  border: none;
+  color: white;
+  padding: 17px 75px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.watch-button {
+  background-color: transparent;
+  color: white;
+  padding: 17px 75px;
+  text-align: center;
+  font-size: 16px;
+  border: 1px solid;
+  margin-top: 50px;
+}
+.main-title {
+  color: #285a43;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.buy-card-content {
+  display: flex;
+  justify-content: space-around;
+}
+.buy-button {
+  background-color: #285a43;
+  border: none;
+  color: white;
+  padding: 14px 35px;
+  text-align: center;
+  border-radius: 2px;
+  font-weight: bold;
+  font-size: 10px;
+}
+.card-item  h6{
+  font-weight: lighter;
+  
+}
+
+.card-item {
+    border-radius: 4px;
+    border: 1px solid gray ;
+  
+   
+    margin: 10px 20px;
+   
+    
+    align-self: normal;
+}
+
+.grid-item{
+    display: flex;  
+   
+    max-width: 1300px;
+    align-content: center;
+    margin: auto;
+   
+
+}
+
+.plant-img{
+ width: 100%;
+ height: auto;
+}
+.gallery{
+  display: flex;
+ height: auto;
+  
+  margin: auto;
+  justify-content: center;
+}
+.gallery-column{
+  display: flex;
+  width: 100%;
+ 
+}
+.gallery-grid{
+  width: 100%;
+  
+
+}
+.comment-card-align{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 100px;
+  
+}
+.comment-card{
+  background-color: darkgray;
+  height: 205px;
+  width: 300px;
+  padding: 50px;
+}
+.comment-card-items{
+  display: flex;
+  
+}
+
+.background-img-content {
+  height: 800px;
+  width: 100%;
+
+
+  background-repeat: no-repeat;
+  background-size: contain;
+ 
+  background-image: url("../images/pexels-photo-1831256.jpeg");
+  position: relative;
+}
+.background-img-content h1{
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+@media screen  and (max-width:368px){
+  .container{
+    flex-direction: column;
+  }
+}
